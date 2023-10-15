@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 
-const BackButton = () => {
+const BackButton = (): JSX.Element => {
   const router = useRouter();
 
   const handleBack = () => {
